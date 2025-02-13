@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do Items</title>
+    <style>
+        body{
+        background-color:#FAFAFA;
+        font-family: "Nunito", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        }
+
+        h1,h2,h3,h4,h5,h6{
+           font-family:'Railway', sans-serif;
+           }
+
+        .container{
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+       background-color: #f0f4f8; /* Light grayish-blue */
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        font-family: 'Arial', sans-serif;
+        color: #333;
+    }
+
+    .header-bar {
+    color: #fff
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    boader-radius: 5px 5px 0 0;
+    background:liner gradient(90deg #EEA390  0% #EB796F 43% #EB796F 100%);
+    }
+
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+      <div class="container">
+          {% block content %}
+          {% endblock content %}
+
+      </div>
+
+</body>
+</html>
